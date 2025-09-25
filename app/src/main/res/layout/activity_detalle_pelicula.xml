@@ -41,4 +41,24 @@
         android:textColor="@color/texto"
         android:textSize="14sp" />
 
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/titulos"
+        android:textColor="@color/black"
+        android:text="BUY TICKETS!" />
+
+    <TextView
+        android:id="@+id/seatsLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texto2"
+        android:textStyle="italic"
+        android:text="No quedan asientos :("
+        android:textAlignment="center"
+        android:layout_marginTop="7dp" />
+
+
 </LinearLayout>
