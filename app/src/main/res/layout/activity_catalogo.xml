@@ -22,9 +22,8 @@
         android:textColor="@color/titulos"
         android:textStyle="bold" />
 
-    <GridView
-        android:id="@+id/grid_series"
-        android:numColumns="3"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_series"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -40,9 +39,8 @@
         android:textColor="@color/titulos"
         android:textStyle="bold" />
 
-    <GridView
-        android:id="@+id/grid_pelis"
-        android:numColumns="3"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pelis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
